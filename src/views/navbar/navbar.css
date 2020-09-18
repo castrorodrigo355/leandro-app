@@ -1,0 +1,22 @@
+.navbar--main--container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+
+  height: 50px;
+  background: rgb(235, 155, 141);
+}
+
+.navbar--main--container--logo {
+  width: 100px;
+  text-align: center;
+}
+
+.navbar--main--container--items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 600px;
+}
