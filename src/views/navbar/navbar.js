@@ -16,13 +16,7 @@ export const Navbar = () => {
       </div>
       <div className="navbar--main--container--items">
         {menuItems.map(element => {
-          // Despues de que instales react-router-dom
-          // Agregar etiquetas "LINK to"
-          return (
-            //   <Link to={element.url}>
-            <div key={element.id}>{element.item}</div>
-            //   </Link>;
-          );
+          return <div key={element.id}>{element.item}</div>;
         })}
       </div>
     </div>

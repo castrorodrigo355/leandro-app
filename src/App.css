@@ -1,0 +1,27 @@
+.main-container-sidebar {
+  position: "relative";
+}
+
+.main-container-hamburger {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  z-index: 100;
+  cursor: pointer;
+}
+
+/* **************************** */
+.main-container-sidebar {
+  position: absolute;
+  top: 0;
+  left: -300px;
+  z-index: 100;
+  width: 300px;
+  height: 100vh;
+  background: gray;
+  transition: all 0.3s;
+}
+
+.main-container-sidebar.is-open {
+  left: 0;
+}
